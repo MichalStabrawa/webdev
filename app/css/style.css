@@ -15,7 +15,7 @@ nav {
   font-family: 'Audiowide', cursive;
   background: rgba(73, 59, 84, 0.3); }
   nav a {
-    color: #9BD9EA;
+    color: #FFF;
     margin: 10px;
     font-size: 25px; }
 
@@ -66,15 +66,6 @@ header {
     width: 50px;
     margin-right: 10px; }
 
-.triangle {
-  width: 0;
-  height: 0;
-  border-left: 200px solid transparent;
-  border-right: 200px solid transparent;
-  border-top: 100px solid #000002;
-  margin-left: auto;
-  margin-right: auto; }
-
 .offert {
   background-image: linear-gradient(to right top, #797a7c, #575c68, #393f54, #1d2440, #04042c);
   padding-bottom: 50px; }
@@ -88,6 +79,8 @@ header {
     width: 100%;
     display: flex;
     justify-content: center; }
+  .offert .offert-content p {
+    font-size: 20px; }
 
 .price-web {
   padding-bottom: 50px; }
@@ -123,10 +116,12 @@ header {
   .price-web i {
     color: #fff; }
 
+/*skilss*/
 .skills {
   position: relative;
   background-image: linear-gradient(to right top, #797a7c, #575c68, #393f54, #1d2440, #04042c);
-  padding-top: 100px; }
+  padding-top: 10px;
+  padding-bottom: 10px; }
   .skills .skills-icons {
     display: flex;
     justify-content: center;
@@ -144,11 +139,46 @@ header {
     background-image: linear-gradient(to right top, #797a7c, #575c68, #393f54, #1d2440, #04042c);
     opacity: 0.5; }
 
-.promotion .card {
-  margin: auto 0;
-  background-image: linear-gradient(to right top, #25bec7, #5cb5cd, #82abc5, #98a3b4, #9f9fa1); }
-  .promotion .card .card-body {
-    background-image: linear-gradient(to right top, #25bec7, #5cb5cd, #82abc5, #98a3b4, #9f9fa1);
-    text-align: center; }
-    .promotion .card .card-body p {
-      color: #fff; }
+.promotion {
+  padding-bottom: 100px; }
+  .promotion .card {
+    background-image: linear-gradient(to right top, #797a7c, #575c68, #393f54, #1d2440, #04042c);
+    margin: auto 0; }
+    .promotion .card .card-body {
+      background-image: linear-gradient(to right top, #57585c, #6c6c70, #818184, #979799, #adadaf);
+      text-align: center; }
+      .promotion .card .card-body p {
+        color: #fff; }
+
+.recomandation {
+  position: relative;
+  background-image: url(../img/images/smartphone-1445448_1280.png);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding-bottom: 50px; }
+  .recomandation .owl-item img {
+    max-width: 600px;
+    margin: 0 auto; }
+  .recomandation h2 {
+    color: #fff; }
+  .recomandation button {
+    height: 50px;
+    background-image: linear-gradient(to right top, #845ec2, #eb4d9f, #ff695a, #feac00, #a8eb12);
+    border: 0px;
+    color: #fff;
+    border-radius: 15px;
+    width: 150px; }
+  .recomandation .owl-theme .owl-dots .owl-dot span {
+    margin: 0 auto;
+    background: #04042C; }
+
+/*footer*/
+footer {
+  background-image: url(../img/images/tlo.png);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding-bottom: 100px; }
+  footer .col-md-6:nth-child(2) {
+    text-align: right; }

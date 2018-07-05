@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,9 @@
     <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
     <link rel="stylesheet" href="fontawesome-free-5.0.13/fontawesome-free-5.0.13/web-fonts-with-css/css/fontawesome-all.min.css">
     <link rel="stylesheet" href="bootstrap-4.1.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -19,9 +23,9 @@
 
 
             <a href=""><i class="fab fa-2x fa-linkedin"></i></a></div>
-        <div class="navbar"> <a href="">O NAS</a>
-            <a href="">OFERTA</a>
-            <a href="">KONTAKT</a></div>
+        <div class="navbar " id="main-nav"> <a href="#about-us">O NAS</a>
+            <a href="#offert-us">OFERTA</a>
+            <a href="#contact">KONTAKT</a></div>
     </nav>
     <!--header-->
 
@@ -39,7 +43,7 @@
 
     <!--about section-->
 
-    <section class="about">
+    <section class="about" id="about-us">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 about-text">
@@ -51,7 +55,7 @@
 
                 </div>
             </div>
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-lg-6"><img src="img/images/laptop-h_01.png" alt=""></div>
                 <div class="col-lg-6">
                     <h3><span class="check"><img src="img/checkbox-152186_640.png" alt=""></span>Jesteśmy zespołem młodych zafascynowanych programowaniem developerów</h3>
@@ -66,7 +70,7 @@
     <!--triangle-->
 
     <!--offert section-->
-    <section class="offert">
+    <section class="offert" id="offert-us">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -103,11 +107,23 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-12">
-                        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis harum ipsam, sequi, dolor modi quos qui! Inventore vitae harum ea tenetur, sunt ex animi ut. Voluptates ratione quaerat, dolorem beatae.</p>
-                        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae accusantium earum libero ex, impedit quos perspiciatis dignissimos rem sit illo, officia. Sint repellendus vitae modi pariatur recusandae eius cupiditate doloremque.</p>
-                    </div>
 
+
+
+
+                </div>
+
+                <div class="row offert-content">
+                    <div class="col-lg-12 offert-content">
+                        <p class="text-center">Specjalizujemy się w profesjonalnym programowaniu stron internetowych</p>
+                        <p class="text-center">Nasze strony i aplikacje wykonujemy zawsze w technollogi RWD tak aby zawsze dostosowane były do wszystkich urządzeń mobilnych</p>
+                        <p class="text-center">Nasza oferta skierowana jest do dużych średnich jak i małych firm oraz osób indywidualnych</p>
+
+                        <p class="text-center">Projektujemy zawsze nowoczesny UX tak by zaprogramowane przez nas aplikacje oprócz tego że są zawsze nowoczesne były również przyjazne dla użytkownika</p>
+
+                        <p class="text-center">Przykładamy bardzo dużą wagę do odpowiedniej użyteczności naszych aplikacji </p>
+                        <p class="text-center">Strony internetowe które wykonujemy są zaprogramowane tak aby był przyjazne dla wyszukiwarek co ma kluczowe znaczenie dla SEO</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -139,7 +155,7 @@
         </div>
     </section>
 
-
+    <!--skills section-->
     <section class="skills">
         <div class="container-fluid">
             <div class="row">
@@ -177,6 +193,8 @@
         <div class="mask"></div>
     </section>
 
+
+    <!--promotion section-->
     <section class="promotion">
         <div class="container-fluid">
             <div class="row">
@@ -191,11 +209,11 @@
                         <img class="card-img-top" src="img/images/web-3482970_640.png" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">PODSTAWOWY</h5>
-                            <p class="card-text">3 podstrony</p>
+                            <p class="card-text">do 4 podstrony</p>
                             <p class="card-text">galeria zdjęć</p>
                             <p class="card-text">slider</p>
                             <p class="card-text">wersja RWD</p>
-<h4>CENA 700zł</h4>
+                            <h4>CENA 700zł</h4>
 
                             <a href="#" class="btn btn-primary">ZAMÓW</a>
                         </div>
@@ -206,14 +224,14 @@
                         <img class="card-img-top" src="img/images/web-3482970_640.png" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">STANDARD</h5>
-                            <p class="card-text">6 podstron</p>
+                            <p class="card-text">do 8 podstron</p>
                             <p class="card-text">galeria zdjęć</p>
                             <p class="card-text">slider</p>
                             <p class="card-text">wersja RWD</p>
                             <p class="card-text">CMS</p>
 
 
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" class="btn btn-primary">ZAMÓW WYCENĘ</a>
                         </div>
                     </div>
                 </div>
@@ -222,9 +240,13 @@
                         <img class="card-img-top" src="img/images/web-3482970_640.png" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">STANDARD PLUS</h5>
+  <p class="card-text">do 15 podstron</p>
+                            <p class="card-text">galeria zdjęć</p>
+                            <p class="card-text">slider</p>
+                            <p class="card-text">wersja RWD</p>
+                            <p class="card-text">CMS</p>
 
-
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" class="btn btn-primary">ZAMÓW WYCENĘ</a>
                         </div>
                     </div>
                 </div>
@@ -233,8 +255,12 @@
                         <img class="card-img-top" src="img/images/web-3482970_640.png" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">PREMIUM</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                           <p class="card-text">powyżej 15 podstron</p>
+                            <p class="card-text">galeria zdjęć</p>
+                            <p class="card-text">slider</p>
+                            <p class="card-text">wersja RWD</p>
+                            <p class="card-text">CMS</p>
+                            <a href="#" class="btn btn-primary">ZAMÓW WYCENĘ</a>
                         </div>
                     </div>
                 </div>
@@ -242,13 +268,71 @@
         </div>
     </section>
 
+    <!--recomandation section-->
+
+    <section class="recomandation">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-lg-12">
+                    <h2>OSTANIE REALIZACJE</h2>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="owl-carousel owl-theme owl-loaded">
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage">
+                                <div class="owl-item"><img src="img/images/mobile-devices-2017978_640.png" alt=""><button class="btn-owl"><i class="fas fa-search"></i>LIVE</button></div>
+                                <div class="owl-item"><img src="img/images/wojtaszek-portfolio.png" alt=""><button class="btn-owl"><i class="fas fa-search"></i>LIVE</button></div>
+                                <div class="owl-item"><img src="img/images/skawina-mobile.png" alt=""><button class="btn-owl"><i class="fas fa-search"></i>LIVE</button></div>
+                                <div class="owl-item"><img src="img/images/mobile-devices-2017978_640.png" alt=""><button class="btn-owl"><i class="fas fa-search"></i>LIVE</button></div>
+                                <div class="owl-item"><img src="img/images/wojtaszek-portfolio.png" alt=""><button class="btn-owl"><i class="fas fa-search"></i>LIVE</button></div>
+                                <div class="owl-item"><img src="img/images/skawina-mobile.png" alt=""><button class="btn-owl"><i class="fas fa-search"></i>LIVE</button></div>
+
+                            </div>
+                        </div>
+                    
+
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+    </section>
+    
+
+<footer id="contact">
+    <div class="container">
+        <div class="row"><div class="col-md-12">
+            <h2>KONTAKT</h2>
+        </div></div>
+        
+        <div class="row align-items-center">
+            <div class="col-md-6"><h4>WEB DEVELOPMENT</h4><h4>533 197 333</h4><h4>example@example.com</h4><h4>Kraków ul.Stojałowksiego 41/14</h4></div>
+            <div class="col-md-6 align-middle">
+                <i class="fab fa-2x fa-facebook"></i>
+                <i class="fab fa-2x fa-linkedin"></i>
+  <i class="fab fa-2x fa-github-square"></i>
+            </div>
+        </div>
+    </div>
+</footer>
+  
+
+
+
 
 
 
 
 
     <script src="js/jquery.min.js"></script>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
     <script src="bootstrap-4.1.0/dist/js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
 </body>
+
 </html>
