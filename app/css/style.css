@@ -279,14 +279,35 @@ footer {
       color: red;
       margin-right: 25px; }
   footer form .form-input {
-    max-width: 704px; }
+    display: flex;
+    justify-content: space-between; }
+  footer form .form-input:nth-child(4) {
+    justify-content: flex-end; }
+    footer form .form-input:nth-child(4) button.submit {
+      background: red;
+      color: #fff;
+      border: 0px;
+      height: 45px;
+      padding-left: 20px;
+      padding-right: 20px;
+      border-radius: 3px; }
   footer form input[type="text"] {
-    max-width: 350px;
+    width: 48%;
     padding: 20px;
     margin-top: 0;
-    margin-bottom: 40px;
+    margin-bottom: 4%;
     background: #1e2429;
-    height: 50px;
+    height: 45px;
     border: 0px; }
   footer form textarea {
-    width: 100%; }
+    width: 100%;
+    background: #1e2429;
+    height: 80px;
+    border: 0px;
+    margin-bottom: 4%; }
+  footer .footer_info {
+    margin-top: 100px;
+    color: grey;
+    font-size: 11.5px; }
+    footer .footer_info span.company {
+      color: red; }
