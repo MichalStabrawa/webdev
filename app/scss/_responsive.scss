@@ -1,0 +1,62 @@
+@media(max-width:799px){
+    header{
+        height: 80vh;
+        background: url(../img/laptopsm.png);
+        background-size:cover;
+        background-position:center;}
+    
+    .web-technology{
+        height: auto;
+    }
+    
+    .web-technology .row{
+        MARGIN:0 auto;
+    }
+}
+
+
+@media(max-width:479px){
+    nav{
+        height: auto;
+        flex-direction:column;
+        
+        .navbar{
+            flex-direction:column;
+            width: 100%;
+            flex-wrap:nowrap;
+            padding:10px;
+            display:none;
+        }
+    }
+    
+    header{
+        height: 80vh;
+        background: url(../img/laptopsm.png);
+        background-size:cover;
+        background-position:center;
+        .jumbotron{
+        h1{
+            font-size: 28px;
+            margin-top:50px;
+        }
+        
+        h2{
+            font-size:27px;
+        }
+    }
+        
+    }
+        
+    
+    section{
+        padding:10px;
+    }
+    
+    .col-lg-6{
+        margin-bottom:20px;
+    }
+    
+   
+    
+   
+}
