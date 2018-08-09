@@ -36,7 +36,14 @@ nav {width: 100%;
     font-family: 'Audiowide', cursive;
     background: rgba(73, 59, 84, 0.3);
 
-
+    i{
+        color:#fff;
+        
+      
+    }
+      .fa-bars{
+            display:none;
+        }
     a {
         color: #FFF;
         margin: 10px;

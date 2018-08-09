@@ -20,6 +20,10 @@ nav {
   z-index: 100;
   font-family: 'Audiowide', cursive;
   background: rgba(73, 59, 84, 0.3); }
+  nav i {
+    color: #fff; }
+  nav .fa-bars {
+    display: none; }
   nav a {
     color: #FFF;
     margin: 10px;
