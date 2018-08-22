@@ -20,6 +20,9 @@
         height: auto;
         flex-direction:column;
         
+          .fa-bars{
+            display:inline-block;
+        }
         .navbar{
             flex-direction:column;
             width: 100%;
