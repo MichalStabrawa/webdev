@@ -4,17 +4,19 @@
 $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
     loop:true,
-    autoplay:false,
+    autoplay:true,
     margin:0,
     responsiveClass:true,
     responsive:{
         0:{
             items:1,
-            nav:true
+            nav:false,
+            dots:false,
         },
         600:{
             items:1,
-            nav:false
+            nav:false,
+            dots:false,
         },
         1000:{
             items:2,

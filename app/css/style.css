@@ -196,7 +196,7 @@ header {
   background-image: url(../img/images/images/technologie.png);
   background-size: cover;
   background-position: center;
-  height: 487px;
+  min-height: 487px;
   color: #fff; }
   .web-technology .row {
     width: 100%; }
@@ -372,10 +372,28 @@ footer {
     background: url(../img/laptopsm.png);
     background-size: cover;
     background-position: center; }
+    header .jumbotron h1 {
+      font-size: 32px; }
   .web-technology {
     height: auto; }
   .web-technology .row {
-    MARGIN: 0 auto; } }
+    MARGIN: 0 auto; }
+  nav {
+    height: auto;
+    flex-direction: column; }
+    nav .fa-bars {
+      display: inline-block; }
+    nav .navbar {
+      flex-direction: column;
+      width: 100%;
+      flex-wrap: nowrap;
+      padding: 10px;
+      display: none; }
+    nav .social-contnet {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      font-size: 20px; } }
 
 @media (max-width: 479px) {
   nav {
@@ -397,8 +415,12 @@ footer {
     header .jumbotron h1 {
       font-size: 28px;
       margin-top: 50px; }
-    header .jumbotron h2 {
-      font-size: 27px; }
+  section h2 {
+    font-size: 24px; }
+  .about h3 {
+    font-size: 22px; }
+  h2 {
+    font-size: 24px; }
   section {
     padding: 10px; }
   .col-lg-6 {
