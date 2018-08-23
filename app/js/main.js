@@ -57,5 +57,9 @@ var menuHeight = $('#main-nav').height();
     $('#btn-first').click(function(){
         $("html, body").animate({ scrollTop: $('.how-work').height() }, 2000);
     })
+    
+    $('#hamburger').click(function(){
+        $('.navbar').toggle();
+    })
 })
 

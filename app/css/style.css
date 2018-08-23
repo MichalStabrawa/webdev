@@ -22,6 +22,10 @@ nav {
   background: rgba(73, 59, 84, 0.3); }
   nav i {
     color: #fff; }
+  nav #hamburger {
+    display: none;
+    background: transparent;
+    border: 0px; }
   nav .fa-bars {
     display: none; }
   nav a {
@@ -381,6 +385,8 @@ footer {
   nav {
     height: auto;
     flex-direction: column; }
+    nav #hamburger {
+      display: inline-block; }
     nav .fa-bars {
       display: inline-block; }
     nav .navbar {
@@ -408,7 +414,7 @@ footer {
       padding: 10px;
       display: none; }
   header {
-    height: 80vh;
+    height: auto;
     background: url(../img/laptopsm.png);
     background-size: cover;
     background-position: center; }
@@ -424,4 +430,12 @@ footer {
   section {
     padding: 10px; }
   .col-lg-6 {
+    margin-bottom: 20px; }
+  .parralax1 {
+    height: 100px; }
+  .separator {
+    height: 100px; }
+  footer {
+    padding-bottom: 10px; }
+  #contact i {
     margin-bottom: 20px; } }
