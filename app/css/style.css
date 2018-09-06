@@ -370,7 +370,7 @@ footer {
     footer .footer_info span.company {
       color: red; }
 
-.separator {
+.separator2 {
   height: 30px; }
 
 .answer {
@@ -382,17 +382,27 @@ footer {
     max-width: 1000px;
     margin: 0 auto;
     text-align: center; }
-  .answer .answer-wrapper {
+
+.get-form {
+  background: #282f35;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  color: #fff; }
+  .get-form .answer-wrapper {
     max-width: 1000px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column; }
-    .answer .answer-wrapper label, .answer .answer-wrapper select {
+    margin: 0 auto; }
+    .get-form .answer-wrapper label, .get-form .answer-wrapper select {
       margin: 0 auto; }
-    .answer .answer-wrapper select {
-      height: 35px;
-      width: 600px; }
+    .get-form .answer-wrapper label {
+      color: red; }
+    .get-form .answer-wrapper select {
+      height: 45px;
+      width: 600px;
+      margin-bottom: 10px; }
+    .get-form .answer-wrapper form {
+      display: flex;
+      justify-content: center;
+      flex-direction: column; }
 
 @media (max-width: 799px) {
   header {

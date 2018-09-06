@@ -579,7 +579,7 @@ footer {
   
 }
 
-.separator{
+.separator2{
     height: 30px;
 }
 .answer{
@@ -593,21 +593,39 @@ footer {
         text-align: center;
     }
 
+  
+   
+}
+
+.get-form{
+    background:#282f35;
+    padding-top:20px;
+    padding-bottom:100px;
+    color:#fff;
+
     .answer-wrapper{
         max-width: 1000px;
         margin:0 auto;
-        display:flex;
-        justify-content: center;
-        flex-direction:column;
+      
 
         label,select{
            
             margin: 0 auto;
         }
+        label{
+            color:red;
+        }
 
         select{
-            height: 35px;
+            height: 45px;
             width: 600px;
+            margin-bottom: 10px;
+        }
+
+        form{
+            display:flex;
+            justify-content: center;
+            flex-direction: column;
         }
     }
 }
