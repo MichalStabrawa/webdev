@@ -370,14 +370,29 @@ footer {
     footer .footer_info span.company {
       color: red; }
 
+.separator {
+  height: 30px; }
+
 .answer {
-  padding-top: 100px; }
+  padding-top: 45px;
+  padding-bottom: 100px; }
   .answer h3 {
     text-align: center; }
   .answer p {
     max-width: 1000px;
     margin: 0 auto;
     text-align: center; }
+  .answer .answer-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+    .answer .answer-wrapper label, .answer .answer-wrapper select {
+      margin: 0 auto; }
+    .answer .answer-wrapper select {
+      height: 35px;
+      width: 600px; }
 
 @media (max-width: 799px) {
   header {
