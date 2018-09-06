@@ -370,6 +370,15 @@ footer {
     footer .footer_info span.company {
       color: red; }
 
+.answer {
+  padding-top: 100px; }
+  .answer h3 {
+    text-align: center; }
+  .answer p {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center; }
+
 @media (max-width: 799px) {
   header {
     height: 80vh;

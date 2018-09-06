@@ -571,9 +571,24 @@ footer {
             color: red;
         }
     }
+
+
+
+
     
   
 }
+.answer{
+    padding-top:100px;
+    h3{
+        text-align: center;
+    }
+    p{max-width: 1000px;
+        margin:0 auto;
+        text-align: center;
+    }
+}
+
  @import 'responsive';
 
 
