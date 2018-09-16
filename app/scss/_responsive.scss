@@ -12,6 +12,8 @@
 
     .web-technology {
         height: auto;
+
+
     }
 
     .web-technology .row {
@@ -45,7 +47,32 @@
 
 
     }
+    .get-form .answer-wrapper select{
+        width:100%;
+    }
+    .get-form .answer-wrapper{
+        padding: 10px;
+    }
 
+    .price-web{
+        h3{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        .wrapper-price{
+            display:flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+    .addres{
+margin-bottom:20px;
+    }
+    .contact{
+        margin-bottom:20px;
+    }
 
 }
 
@@ -126,5 +153,16 @@
         i {
             margin-bottom: 20px;
         }
+    }
+    .web-technology{
+        figure{
+            width: 50%;
+        }
+    }
+    footer form .form-input{
+        flex-direction: column;
+    }
+    footer form input[type="text"]{
+        width: 100%;
     }
 }

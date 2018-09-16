@@ -261,7 +261,8 @@ header {
       margin-bottom: 10px;
       border: 1px solid #000; }
     .price-web form textarea {
-      height: 100px; }
+      height: 100px;
+      padding: 15px; }
     .price-web form button {
       height: 35px;
       width: 120px;
@@ -385,7 +386,8 @@ footer {
     background: #1e2429;
     height: 80px;
     border: 0px;
-    margin-bottom: 4%; }
+    margin-bottom: 4%;
+    padding: 15px; }
   footer .footer_info {
     margin-top: 100px;
     color: grey;
@@ -457,7 +459,23 @@ footer {
       width: 100%;
       display: flex;
       justify-content: space-between;
-      font-size: 20px; } }
+      font-size: 20px; }
+  .get-form .answer-wrapper select {
+    width: 100%; }
+  .get-form .answer-wrapper {
+    padding: 10px; }
+  .price-web h3 {
+    text-align: center; }
+  .price-web p {
+    text-align: center; }
+  .price-web .wrapper-price {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+  .addres {
+    margin-bottom: 20px; }
+  .contact {
+    margin-bottom: 20px; } }
 
 @media (max-width: 479px) {
   nav {
@@ -496,4 +514,10 @@ footer {
   footer {
     padding-bottom: 10px; }
   #contact i {
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; }
+  .web-technology figure {
+    width: 50%; }
+  footer form .form-input {
+    flex-direction: column; }
+  footer form input[type="text"] {
+    width: 100%; } }
