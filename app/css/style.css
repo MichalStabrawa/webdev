@@ -161,6 +161,8 @@ header {
       .newsletter .col-lg-12 .newsletter-wrapper .newsletter-item span {
         display: inline-block;
         text-align: center; }
+        .newsletter .col-lg-12 .newsletter-wrapper .newsletter-item span img {
+          width: 100%; }
       .newsletter .col-lg-12 .newsletter-wrapper .newsletter-item h3 {
         margin-top: 20px; }
 
@@ -227,6 +229,8 @@ header {
     padding-top: 50px; }
   .price-web .col-lg-6:nth-child(2) {
     background: #fff; }
+  .price-web p {
+    margin-top: 50px; }
   .price-web .btn-price {
     background: transparent;
     border: 1px solid #000;
