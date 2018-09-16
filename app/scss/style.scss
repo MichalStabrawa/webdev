@@ -236,14 +236,32 @@ widows: 100%;
 /*newsletter section*/
 
 .newsletter {
-    height: 200px;
+    padding:10px;
+    padding-top:50px;
+    padding-bottom:50px;
     background: #282f35;
 
     .col-lg-12 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 200px;
+      .newsletter-wrapper{
+          display: flex;
+          justify-content: space-around;
+          color:#fff;
+
+          .newsletter-item{
+              display:flex;
+              justify-content: center;
+              flex-direction: column;
+
+              span{
+                  display:inline-block;
+                  text-align: center;
+              }
+              h3{
+                  margin-top:20px;
+              }
+          }
+     
+      }
         .btn {
             background: transparent;
             border: 1px solid #fff;
@@ -331,7 +349,7 @@ widows: 100%;
     }
 }
 
-/*price web*/
+
 
 .price-web {
     padding-bottom: 50px;
@@ -349,6 +367,21 @@ widows: 100%;
 
 
     }
+
+
+    .btn-price{
+        background: transparent;
+    border: 1px solid #000;
+    height: 50px;
+    border-radius: 15px;
+    color: red;
+    padding: 0px;
+    line-height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin:0 auto;
+}
+    
     form {
 
         padding: 10px;

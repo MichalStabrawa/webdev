@@ -144,23 +144,33 @@ header {
 
 /*newsletter section*/
 .newsletter {
-  height: 200px;
+  padding: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background: #282f35; }
-  .newsletter .col-lg-12 {
+  .newsletter .col-lg-12 .newsletter-wrapper {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px; }
-    .newsletter .col-lg-12 .btn {
-      background: transparent;
-      border: 1px solid #fff;
-      height: 50px;
-      border-radius: 15px;
-      color: red;
-      padding: 0px;
-      line-height: 50px;
-      padding-left: 20px;
-      padding-right: 20px; }
+    justify-content: space-around;
+    color: #fff; }
+    .newsletter .col-lg-12 .newsletter-wrapper .newsletter-item {
+      display: flex;
+      justify-content: center;
+      flex-direction: column; }
+      .newsletter .col-lg-12 .newsletter-wrapper .newsletter-item span {
+        display: inline-block;
+        text-align: center; }
+      .newsletter .col-lg-12 .newsletter-wrapper .newsletter-item h3 {
+        margin-top: 20px; }
+  .newsletter .col-lg-12 .btn {
+    background: transparent;
+    border: 1px solid #fff;
+    height: 50px;
+    border-radius: 15px;
+    color: red;
+    padding: 0px;
+    line-height: 50px;
+    padding-left: 20px;
+    padding-right: 20px; }
 
 .how-work {
   text-align: center;
@@ -214,7 +224,6 @@ header {
     max-width: 80px;
     margin: 20px; }
 
-/*price web*/
 .price-web {
   padding-bottom: 50px; }
   .price-web .col-lg-6:nth-child(1) {
@@ -226,6 +235,17 @@ header {
     padding-top: 50px; }
   .price-web .col-lg-6:nth-child(2) {
     background: #fff; }
+  .price-web .btn-price {
+    background: transparent;
+    border: 1px solid #000;
+    height: 50px;
+    border-radius: 15px;
+    color: red;
+    padding: 0px;
+    line-height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto; }
   .price-web form {
     padding: 10px;
     padding-top: 50px; }

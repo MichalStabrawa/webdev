@@ -63,11 +63,5 @@ var menuHeight = $('#main-nav').height();
     })
 })
 
-fetch('http://api.nbp.pl/api/exchangerates/rates/c/usd/today/')
-  .then(function(response) {
-    return response.json();
-  })
-  .then(function(myJson) {
-    console.log(JSON.stringify(myJson));
-  });
+
 
