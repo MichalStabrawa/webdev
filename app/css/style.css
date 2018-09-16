@@ -163,16 +163,6 @@ header {
         text-align: center; }
       .newsletter .col-lg-12 .newsletter-wrapper .newsletter-item h3 {
         margin-top: 20px; }
-  .newsletter .col-lg-12 .btn {
-    background: transparent;
-    border: 1px solid #fff;
-    height: 50px;
-    border-radius: 15px;
-    color: red;
-    padding: 0px;
-    line-height: 50px;
-    padding-left: 20px;
-    padding-right: 20px; }
 
 .how-work {
   text-align: center;
@@ -247,7 +237,14 @@ header {
     line-height: 50px;
     padding-left: 20px;
     padding-right: 20px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    margin-top: 50px; }
+    .price-web .btn-price:hover {
+      background: #282F35;
+      transition: 0.5s; }
+    .price-web .btn-price a {
+      color: red;
+      text-decoration: none; }
   .price-web form {
     padding: 10px;
     padding-top: 50px; }
@@ -413,7 +410,8 @@ footer {
   .get-form .answer-wrapper {
     max-width: 1000px;
     margin: 0 auto; }
-    .get-form .answer-wrapper label, .get-form .answer-wrapper select {
+    .get-form .answer-wrapper label,
+    .get-form .answer-wrapper select {
       margin: 0 auto; }
     .get-form .answer-wrapper label {
       color: red; }
