@@ -246,12 +246,13 @@ widows: 100%;
           display: flex;
           justify-content: space-around;
           color:#fff;
+          flex-wrap:wrap;
 
           .newsletter-item{
               display:flex;
               justify-content: center;
               flex-direction: column;
-
+margin-bottom: 20px;
               span{
                   display:inline-block;
                   text-align: center;

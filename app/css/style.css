@@ -151,11 +151,13 @@ header {
   .newsletter .col-lg-12 .newsletter-wrapper {
     display: flex;
     justify-content: space-around;
-    color: #fff; }
+    color: #fff;
+    flex-wrap: wrap; }
     .newsletter .col-lg-12 .newsletter-wrapper .newsletter-item {
       display: flex;
       justify-content: center;
-      flex-direction: column; }
+      flex-direction: column;
+      margin-bottom: 20px; }
       .newsletter .col-lg-12 .newsletter-wrapper .newsletter-item span {
         display: inline-block;
         text-align: center; }
