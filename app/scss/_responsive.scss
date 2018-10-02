@@ -23,18 +23,25 @@
     nav {
         height: auto;
         flex-direction: column;
+       
         #hamburger{
             display:inline-block;
         }
         .fa-bars {
             display: inline-block;
         }
+
+        #main-nav{
+            display:none;
+
+        }
         .navbar {
             flex-direction: column;
             width: 100%;
             flex-wrap: nowrap;
             padding: 10px;
-            display: none;
+            display:flex;
+           
         }
 
         .social-contnet {
@@ -90,11 +97,8 @@ margin-bottom:20px;
             width: 100%;
             flex-wrap: nowrap;
             padding: 10px;
-            display: none;
+            display: flex;
         }
-
-
-
 
     }
 

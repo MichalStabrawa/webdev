@@ -59,7 +59,9 @@ var menuHeight = $('#main-nav').height();
     })
     
     $('#hamburger').click(function(){
-        $('.navbar').toggle();
+        $('#main-nav').toggle();
+        $("#main-nav").css("background", "  rgba(73, 59, 84, 0.8);");
+
     })
 })
 
