@@ -85,7 +85,7 @@ header {
     background: transparent;
     border: 1px solid #fff;
     height: 50px;
-    border-radius: 15px; }
+    border-radius: 3px; }
     header .jumbotron .btn:hover {
       background: rgba(73, 59, 84, 0.8);
       color: red;
@@ -246,7 +246,7 @@ header {
     background: transparent;
     border: 1px solid #000;
     height: 50px;
-    border-radius: 15px;
+    border-radius: 3px;
     color: red;
     padding: 0px;
     line-height: 50px;
@@ -543,7 +543,8 @@ footer {
   #contact i {
     margin-bottom: 20px; }
   .web-technology figure {
-    width: 50%; }
+    width: 50%;
+    text-align: center; }
   footer form .form-input {
     flex-direction: column; }
   footer form input[type="text"] {
