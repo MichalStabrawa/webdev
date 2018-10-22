@@ -453,6 +453,9 @@ footer {
   margin: 0 auto;
   margin-top: 20px; }
 
+.price-link {
+  text-align: center; }
+
 @media (max-width: 799px) {
   header {
     height: 80vh;
