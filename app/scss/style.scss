@@ -141,6 +141,13 @@
          border: 1px solid #fff;
          height: 50px;
          border-radius: 15px;
+
+         &:hover{
+             background:rgba(73, 59, 84, 0.8);
+             color:red;
+             transition:0.3s;
+             border-color:transparent;
+         }
      }
  }
 
@@ -708,6 +715,18 @@
              flex-direction: column;
          }
      }
+ }
+ .btn-red {
+    background: red;
+    color: #fff;
+    border: 0px;
+    height: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 3px;
+    width: 600px;
+    margin:0 auto;
+    margin-top:20px;
  }
 
  @import 'responsive';

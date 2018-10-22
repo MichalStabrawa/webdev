@@ -86,6 +86,11 @@ header {
     border: 1px solid #fff;
     height: 50px;
     border-radius: 15px; }
+    header .jumbotron .btn:hover {
+      background: rgba(73, 59, 84, 0.8);
+      color: red;
+      transition: 0.3s;
+      border-color: transparent; }
 
 .parralax1 {
   background-image: url(../img/images/paralax1.png);
@@ -436,6 +441,18 @@ footer {
       justify-content: center;
       flex-direction: column; }
 
+.btn-red {
+  background: red;
+  color: #fff;
+  border: 0px;
+  height: 45px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 3px;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 20px; }
+
 @media (max-width: 799px) {
   header {
     height: 80vh;
@@ -447,7 +464,7 @@ footer {
   .web-technology {
     height: auto; }
   .web-technology .row {
-    MARGIN: 0 auto; }
+    margin: 0 auto; }
   nav {
     height: auto;
     flex-direction: column; }
@@ -483,7 +500,9 @@ footer {
   .addres {
     margin-bottom: 20px; }
   .contact {
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; }
+  .btn-red {
+    width: 100%; } }
 
 @media (max-width: 479px) {
   nav {

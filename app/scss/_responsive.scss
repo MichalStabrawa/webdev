@@ -1,172 +1,157 @@
-@media(max-width:799px) {
-    header {
-        height: 80vh;
-        background: url(../img/laptopsm.png);
-        background-size: cover;
-        background-position: center;
-        
-        .jumbotron h1{
-            font-size:32px;
-        }
+@media (max-width: 799px) {
+  header {
+    height: 80vh;
+    background: url(../img/laptopsm.png);
+    background-size: cover;
+    background-position: center;
+
+    .jumbotron h1 {
+      font-size: 32px;
+    }
+  }
+
+  .web-technology {
+    height: auto;
+  }
+
+  .web-technology .row {
+    margin: 0 auto;
+  }
+
+  nav {
+    height: auto;
+    flex-direction: column;
+
+    #hamburger {
+      display: inline-block;
+    }
+    .fa-bars {
+      display: inline-block;
     }
 
-    .web-technology {
-        height: auto;
-
-
+    #main-nav {
+      display: none;
+    }
+    .navbar {
+      flex-direction: column;
+      width: 100%;
+      flex-wrap: nowrap;
+      padding: 10px;
+      display: flex;
     }
 
-    .web-technology .row {
-        MARGIN: 0 auto;
+    .social-contnet {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      font-size: 20px;
     }
+  }
+  .get-form .answer-wrapper select {
+    width: 100%;
+  }
+  .get-form .answer-wrapper {
+    padding: 10px;
+  }
 
-    nav {
-        height: auto;
-        flex-direction: column;
-       
-        #hamburger{
-            display:inline-block;
-        }
-        .fa-bars {
-            display: inline-block;
-        }
-
-        #main-nav{
-            display:none;
-
-        }
-        .navbar {
-            flex-direction: column;
-            width: 100%;
-            flex-wrap: nowrap;
-            padding: 10px;
-            display:flex;
-           
-        }
-
-        .social-contnet {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-            font-size: 20px;
-
-        }
-
-
+  .price-web {
+    h3 {
+      text-align: center;
     }
-    .get-form .answer-wrapper select{
-        width:100%;
+    p {
+      text-align: center;
     }
-    .get-form .answer-wrapper{
-        padding: 10px;
+    .wrapper-price {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
     }
-
-    .price-web{
-        h3{
-            text-align: center;
-        }
-        p{
-            text-align: center;
-        }
-        .wrapper-price{
-            display:flex;
-            justify-content: center;
-            flex-direction: column;
-        }
-    }
-    .addres{
-margin-bottom:20px;
-    }
-    .contact{
-        margin-bottom:20px;
-    }
-
+  }
+  .addres {
+    margin-bottom: 20px;
+  }
+  .contact {
+    margin-bottom: 20px;
+  }
+  .btn-red {
+    width: 100%;
+  }
 }
 
+@media (max-width: 479px) {
+  nav {
+    height: auto;
+    flex-direction: column;
 
-@media(max-width:479px) {
-    nav {
-        height: auto;
-        flex-direction: column;
-
-        .fa-bars {
-            display: inline-block;
-        }
-        .navbar {
-            flex-direction: column;
-            width: 100%;
-            flex-wrap: nowrap;
-            padding: 10px;
-            display: flex;
-        }
-
+    .fa-bars {
+      display: inline-block;
     }
-
-    header {
-        height: auto;
-        background: url(../img/laptopsm.png);
-        background-size: cover;
-        background-position: center;
-        .jumbotron {
-            h1 {
-                font-size: 28px;
-                margin-top: 50px;
-            }
-
-
-        }
-
-
+    .navbar {
+      flex-direction: column;
+      width: 100%;
+      flex-wrap: nowrap;
+      padding: 10px;
+      display: flex;
     }
+  }
 
-    section h2 {
-        font-size: 24px;
+  header {
+    height: auto;
+    background: url(../img/laptopsm.png);
+    background-size: cover;
+    background-position: center;
+    .jumbotron {
+      h1 {
+        font-size: 28px;
+        margin-top: 50px;
+      }
     }
+  }
 
-    .about h3 {
-        font-size: 22px;
-    }
+  section h2 {
+    font-size: 24px;
+  }
 
-    h2 {
-        font-size: 24px;
-    }
+  .about h3 {
+    font-size: 22px;
+  }
 
+  h2 {
+    font-size: 24px;
+  }
 
-    section {
-        padding: 10px;
-    }
+  section {
+    padding: 10px;
+  }
 
-    .col-lg-6 {
-        margin-bottom: 20px;
-    }
+  .col-lg-6 {
+    margin-bottom: 20px;
+  }
 
+  .parralax1 {
+    height: 100px;
+  }
+  .separator {
+    height: 100px;
+  }
+  footer {
+    padding-bottom: 10px;
+  }
 
-    .parralax1{
-        height:100px;
+  #contact {
+    i {
+      margin-bottom: 20px;
     }
-    .separator{
-        height: 100px;
+  }
+  .web-technology {
+    figure {
+      width: 50%;
     }
-    footer{
-        padding-bottom: 10px;
-        
-      
-    }
-    
-    #contact{
-        i {
-            margin-bottom: 20px;
-        }
-    }
-    .web-technology{
-        figure{
-            width: 50%;
-        }
-    }
-    footer form .form-input{
-        flex-direction: column;
-    }
-    footer form input[type="text"]{
-        width: 100%;
-    }
+  }
+  footer form .form-input {
+    flex-direction: column;
+  }
+  footer form input[type="text"] {
+    width: 100%;
+  }
 }
