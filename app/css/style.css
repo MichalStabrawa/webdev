@@ -440,6 +440,17 @@ footer {
       display: flex;
       justify-content: center;
       flex-direction: column; }
+      .get-form .answer-wrapper form.form-answer input[type="email"] {
+        height: 45px;
+        width: 600px;
+        margin: 0 auto;
+        margin-bottom: 10px; }
+        .get-form .answer-wrapper form.form-answer input[type="email"]::placeholder {
+          padding-left: 5px; }
+      .get-form .answer-wrapper form.form-answer .messageText {
+        width: 600px;
+        margin: 0 auto;
+        height: 80px; }
 
 .btn-red {
   background: red;
