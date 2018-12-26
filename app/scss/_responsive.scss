@@ -53,6 +53,8 @@
   .get-form .answer-wrapper {
     padding: 10px;
   }
+  
+
 
   .price-web {
     h3 {
@@ -76,6 +78,16 @@
   .btn-red {
     width: 100%;
   }
+  .get-form .answer-wrapper form.form-answer {
+   
+    input[type="email"] {
+   width: 100%;
+    }
+    .messageText {
+      width: 100%;
+    }
+
+}
 }
 
 @media (max-width: 479px) {

@@ -516,6 +516,10 @@ footer {
   .contact {
     margin-bottom: 20px; }
   .btn-red {
+    width: 100%; }
+  .get-form .answer-wrapper form.form-answer input[type="email"] {
+    width: 100%; }
+  .get-form .answer-wrapper form.form-answer .messageText {
     width: 100%; } }
 
 @media (max-width: 479px) {
